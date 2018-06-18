@@ -13,6 +13,7 @@ if INPUT_TOUCHSCREEN
 
 source "drivers/input/touchscreen/ft5x46/Kconfig"
 source "drivers/input/touchscreen/focaltech_touch/Kconfig"
+source "drivers/input/touchscreen/nt36xxx/Kconfig"
 
 config TOUCHSCREEN_PROPERTIES
 	def_tristate INPUT
