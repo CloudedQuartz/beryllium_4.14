@@ -89,7 +89,7 @@
 		linux,default-trigger = "bkl-trigger";
 		qcom,fdbk-output = "auto";
 		qcom,vref-uv = <127500>;
-		qcom,switch-freq-khz = <800>;
+		qcom,switch-freq-khz = <600>;
 		qcom,ovp-mv = <29600>;
 		qcom,ilim-ma = <970>;
 		qcom,boost-duty-ns = <26>;
@@ -99,15 +99,10 @@
 		qcom,sync-dly-us = <800>;
 		qcom,fs-curr-ua = <20000>;
 		qcom,cons-sync-write-delay-us = <1000>;
-		qcom,led-strings-list = [00 01 02 03];
+		qcom,led-strings-list = [00 01];
 		qcom,en-ext-pfet-sc-pro;
 		qcom,pmic-revid = <&pmi8998_revid>;
 		qcom,loop-auto-gm-en;
-		qcom,auto-calibration-enable;
-		somc,init-br-ua = <10000>;
-		somc-s1,br-power-save-ua = <800>;
-		somc,bl-scale-enabled;
-		somc,area_count_table_size = <0>;
 		status = "okay";
 	};
 };
