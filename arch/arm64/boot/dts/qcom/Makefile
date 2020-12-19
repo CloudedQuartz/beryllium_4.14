@@ -67,6 +67,14 @@ perseus-p2-v2.1-overlay.dtbo-base := sdm845-v2.1.dtb
 perseus-p3-v2.1-overlay.dtbo-base := sdm845-v2.1.dtb
 perseus-mp-v2.1-overlay.dtbo-base := sdm845-v2.1.dtb
 else
+dtb-$(CONFIG_MACH_XIAOMI_E10) += \
+	beryllium-p0-v2.dtb \
+	beryllium-p0-v2.1.dtb \
+	beryllium-p1-v2.1.dtb \
+	beryllium-p2-v2.1.dtb \
+	beryllium-mp-v2.1.dtb
+endif
+else
 # SPDX-License-Identifier: GPL-2.0
 ifeq (1,0)
 dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-sbc.dtb
