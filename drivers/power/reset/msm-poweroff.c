@@ -55,11 +55,10 @@
 #endif
 #if defined(CONFIG_ARCH_SONY_YOSHINO) || defined(CONFIG_ARCH_SONY_NILE) || \
     defined(CONFIG_ARCH_SONY_TAMA) || defined(CONFIG_ARCH_SONY_GANGES) || \
-    defined(CONFIG_ARCH_SONY_KUMANO) || defined(CONFIG_ARCH_SONY_SEINE)
+    defined(CONFIG_ARCH_SONY_KUMANO)
  #define TARGET_SOMC_XBOOT
 #if defined(CONFIG_ARCH_SONY_NILE) || defined(CONFIG_ARCH_SONY_TAMA) || \
-    defined(CONFIG_ARCH_SONY_GANGES) || defined(CONFIG_ARCH_SONY_KUMANO) || \
-    defined(CONFIG_ARCH_SONY_SEINE)
+    defined(CONFIG_ARCH_SONY_GANGES) || defined(CONFIG_ARCH_SONY_KUMANO)
  #define TARGET_SOMC_XBOOT_FEATURE_AB
 #endif
 #endif
